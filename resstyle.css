@@ -1,0 +1,83 @@
+*{
+    background-image: url('bg-intro-desktop.png') ;
+    font-size: 16px;
+    background-color: hsl(0, 100%, 74%);
+    font-family: sans-serif;
+}
+main{
+    
+    width:1440px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.login{
+    width: 45%;
+    border-radius: 1rem;
+    background-color: white;
+}
+form {
+    padding-left: 10px;
+    background-color: white;
+    border: 1px;
+    width: 45%;
+    align-items: center;
+    justify-content: center;
+  }
+  p{
+    color: white;
+    width:100%;
+  }
+  h6{
+    color: hsl(246, 25%, 77%);
+    background-color: white;
+    font-weight: normal;
+    font-size: smaller;
+  }
+  h1{
+    font-size: 75px;
+    color: white;
+  }
+  b{
+    background-color: hsl(248, 32%, 49%);;
+  }
+  input[type=text], input[type=password] {
+    background-color: white;
+    width: 200%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+  }
+  .try{
+    color: white;
+    padding: 12px 20px;
+    border: 1px;
+    border-radius: 0.5rem;
+    background-color: hsl(248, 32%, 49%);
+    width: 75%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+button{
+    color: white;
+    width: 75%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+    background-color: hsl(154, 59%, 51%);
+}
+.terms{
+    background-color: white;
+    color:hsl(0, 100%, 74%);
+}
